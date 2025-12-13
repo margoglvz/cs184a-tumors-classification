@@ -3,7 +3,11 @@
 ## Overview
 This project aims to help with the problem of black-box models through high performing deep learning model and GradCAM. The goal is to visualize the regions of an image that most influence a model’s prediction, using this [Kaggle Dataset](https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri)
 
+## Instructions to run project.ipynb
+1. Install all the necessary libraries by running ```pip install -r requirements.txt```
+2. After that, you run each cell from top to bottom in project.ipynb and it will upload best_resnet19.pt to make predictions and visualizations
 
+## Directory Structure
 ### project/
 - images/: A folder containing 6 images of MRI scans that include tumor and healthy
 - project.ipynb/: A demo file where it uploaded best_resnet18.pt and used it to make predictions and visualizations on 6 images
