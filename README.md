@@ -16,8 +16,9 @@ This project aims to help with the problem of black-box models through high perf
    - Grad_CAM_CNN_MRI.ipynb/: Trained stratified k-fold CNN model with evaluations and tested and evaluated with GradCAM heat maps
    - Grad_Cam_Resnet_CT.ipynb/: Trained ResNet model with evaluations and tested and evaluated with GradCAM heat maps
    - Grad_CAM_Resnet_MRI.ipynb/: Trained ResNet model with evaluations and tested and evaluated with GradCAM heat maps
-- models/
-  - mri.ipynb/: Preprocessed, trained, and evaluated CNN model
-  - resnet_for_ct.ipynb/: Preprocessed, trained, and evaluated ResNet CT model
-  - resnet_for_mri.ipynb/: Preprocessed, trained, and evaluated ResNet MRI model
-  - stratified_k_fold_mri.ipynb/: Preprocessed, trained with stratified k-fold and evaluated CNN MRI model
+
+### models/
+- mri.ipynb/: Preprocessed, trained, and evaluated CNN model
+- resnet_for_ct.ipynb/: Preprocessed, trained, and evaluated ResNet CT model
+- resnet_for_mri.ipynb/: Preprocessed, trained, and evaluated ResNet MRI model
+- stratified_k_fold_mri.ipynb/: Preprocessed, trained with stratified k-fold and evaluated CNN MRI model
