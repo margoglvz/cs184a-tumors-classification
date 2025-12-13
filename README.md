@@ -5,8 +5,10 @@ This project aims to help with the problem of black-box models through high perf
 
 
 ### project/
-- project.ipynb
-- project.html
+- images/: A folder containing 6 images of MRI scans that include tumor and healthy
+- project.ipynb/: A demo file where it uploaded best_resnet18.pt and used it to make predictions and visualizations on 6 images
+- project.html/: HTML version of project.ipynb
+- best_resnet18.pt/: Our best performing model used for uploading specifically for MRI scans
 
 ### src/
 - ct.ipynb/: Preprocessing testing for CT scans
